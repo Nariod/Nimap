@@ -14,7 +14,7 @@ In order to compile the project, install the Nim language:
 ```
 sudo apt install nim
 ```
-
+Then, clone and compile the project:
 ```
 git clone https://github.com/Nariod/Nimap.git
 cd Nimap/
