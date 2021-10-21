@@ -8,7 +8,7 @@ You can, but you probably should not. NimScan and Nmap are projects that are way
 
 # Todo list
 - [x] Linux support
-- [] UDP port scan support
-- [] Windows support  
-- [] File export support
-- [] Ping sweep support
+- [ ] UDP port scan support
+- [ ] Windows support  
+- [ ] File export support
+- [ ] Ping sweep support
