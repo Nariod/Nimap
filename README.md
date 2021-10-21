@@ -6,11 +6,19 @@ Nimap is a personal project heavily inspired from the amazing NimScan project fr
 ## Should I use it?
 You can, but you probably should not. NimScan and Nmap are projects that are way more stable for real world engagements.
 
-## Quick start
+## Linux
+
+### Quick start
+
+In order to compile the project, install the Nim language:
+```
+sudo apt install nim
+```
 
 ```
-sudo apt install nim nimble
-nim c
+git clone https://github.com/Nariod/Nimap.git
+cd Nimap/
+nim c /src/main.nim Nimap.elf
 ```
 
 ## Todo list
