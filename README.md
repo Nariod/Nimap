@@ -24,7 +24,7 @@ nim c -o:Nimap.elf /src/main.nim
 ### Quick start
 Scanning TCP ports 80 and 443 from scanme.nmap.org:
 ```
-./Nimap.elf -p80,443 45.33.32.156
+./Nimap.elf -p:80,443 45.33.32.156 --timeout=500
 ```
 
 ## Todo list
