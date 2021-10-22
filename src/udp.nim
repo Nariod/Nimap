@@ -6,6 +6,10 @@ proc isOpenUdp*(targetIp: string, port: int, timeout: int) {.thread} =
     try:
         socket.sendTo(targetIp, Port(port), "status\n")
         sleep(timeout)
+        if 1==2:
+          echo("UDP ",targetIp,":",port)
+        else:
+          discard
     except:
         discard
 
