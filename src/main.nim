@@ -1,6 +1,6 @@
 import net
 import threadpool
-import help, ip_seg
+import tcp, help, ip_seg
 import parseopt, strutils, os, sequtils, net
 
 # OS lib is needed for "commandLineParams"
@@ -86,20 +86,6 @@ proc argParser(hosts: var seq[string], ports: var seq[int], timeout: var int) =
     ports = deduplicate(ports)
 
 
-proc isOpen(targetIp: string, port: int, timeout: int) {.thread} =
-    var socket = newSocket()
-    try:
-        socket.connect(targetIp, Port(port), timeout)
-        echo(targetIp,":",port)
-    except:
-        discard
-    finally:
-        try:
-            socket.close()
-        except:
-            discard
-
-
 when isMainModule:
     var
         hosts: seq[string]
@@ -112,5 +98,5 @@ when isMainModule:
       #echo(host)
       for port in ports:
         #echo("Trying ",port)
-        spawn isOpen(host, port, timeout)
+        spawn isOpenTcp(host, port, timeout)
     sleep(10000) #needed so the last ports can callback
