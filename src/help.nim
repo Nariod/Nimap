@@ -1,5 +1,5 @@
 #[
-    Help
+    Thanks https://github.com/elddy/NimScan
 ]#
 
 proc printHelp*() =

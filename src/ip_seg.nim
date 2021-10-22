@@ -1,5 +1,5 @@
 #[
-    IP Segmentation
+    Thanks https://github.com/elddy/NimScan
 ]#
 
 import strutils, algorithm
