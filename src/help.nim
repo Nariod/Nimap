@@ -12,7 +12,7 @@ Usage:
     Nimap.exe -p:<port1>,<port2>,<portN> <host>
 Options:
     -h, --help            Show this screen.
-    -p, --ports           Ports to scan. [default: 1-65,535]
+    -p, --ports           Ports to scan.
     """
 
     when defined linux:
@@ -25,5 +25,5 @@ Usage:
     Nimap (-h | --help)
 Options:
     -h, --help            Show this screen.
-    -p, --ports           Ports to scan. [default: 1-65,535]
+    -p, --ports           Ports to scan.
     """

@@ -67,6 +67,3 @@ proc calc_range*(subnet: string): seq[string] =
     last[3] = $(last[3].parseInt() - 1)
 
     result = calc_range(first.join("."), last.join("."))
-
-when isMainModule:
-    echo calc_range("192.168.1.1/25")
