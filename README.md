@@ -1,7 +1,7 @@
 # Nimap
 
 ## But, why ?
-Nimap is a personal project heavily (like; for real) inspired from the amazing NimScan project from elddy (https://github.com/elddy/NimScan). This is an educational project to create a Nmap-like port scanner for penetration tests.
+Nimap is a personal project heavily inspired from the amazing NimScan project from elddy (https://github.com/elddy/NimScan). This is an educational project to create a Nmap-like port scanner for penetration tests.
 
 ## Should I use it?
 You can, but you probably should not. NimScan and Nmap are tools that are way more stable for real world engagements.
@@ -26,6 +26,9 @@ Scanning TCP ports 80 and 443 from scanme.nmap.org:
 ```
 ./Nimap.elf -p:80,443 45.33.32.156 --timeout=500
 ```
+
+## Windows
+Work in progress.
 
 ## Todo list
 - [x] Linux support
