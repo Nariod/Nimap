@@ -9,7 +9,6 @@ You can, but you probably should not. NimScan and Nmap are tools that are way mo
 ## Linux
 
 ### Compilation
-
 In order to compile Nimap, install the Nim language:
 ```
 sudo apt install nim
