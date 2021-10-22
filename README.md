@@ -1,7 +1,7 @@
 # Nimap
 
 ## But, why ?
-Nimap is a personal project heavily inspired from the amazing NimScan project from elddy (https://github.com/elddy/NimScan). This is an educational project to create a Nmap-like port scanner for penetration tests.
+Nimap is a personal project to try out the Nim language. This is heavily inspired from the amazing NimScan project from elddy (https://github.com/elddy/NimScan).
 
 ## Should I use it?
 You can, but you probably should not. NimScan and Nmap are tools that are way more stable for real world engagements.
