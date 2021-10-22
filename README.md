@@ -36,3 +36,4 @@ Work in progress.
 - [ ] File export support
 - [ ] Ping sweep support
 - [ ] Find another cmdline parser, damn..
+- [ ] IPv6 support

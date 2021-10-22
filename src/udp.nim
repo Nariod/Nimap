@@ -1,4 +1,5 @@
 import std/net
+import std/nativesockets # required for ICMP response for UDP scans
 import os
 
 proc isOpenUdp*(targetIp: string, port: int, timeout: int) {.thread} =
