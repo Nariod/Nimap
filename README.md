@@ -29,9 +29,10 @@ Scanning TCP ports 80 and 443 from scanme.nmap.org with a timeout of 0,5 second:
 ## Windows
 Work in progress.
 
-## Todo list:
+## Todo list
 - [x] Linux support
 - [ ] UDP port scan support
 - [ ] Windows support  
 - [ ] File export support
 - [ ] Ping sweep support
+- [ ] Find another cmdline parser, damn..
