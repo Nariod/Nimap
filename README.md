@@ -8,7 +8,7 @@ You can, but you probably should not. NimScan and Nmap are tools that are way mo
 
 ## Linux
 
-### Quick start
+### Compilation
 
 In order to compile Nimap, install the Nim language:
 ```
@@ -19,6 +19,12 @@ Then, clone and compile the project:
 git clone https://github.com/Nariod/Nimap.git
 cd Nimap/
 nim c -o:Nimap.elf /src/main.nim
+```
+
+### Quick start
+Scanning TCP ports 80 and 443 from scanme.nmap.org:
+```
+./Nimap.elf -p80,443 45.33.32.156
 ```
 
 ## Todo list
